@@ -53,7 +53,7 @@ h4{
     font-size: 20px;
     display: flex;
     justify-content: center;
-   
+    margin-bottom: 10px;
 }
 footer{
     display: flex;
@@ -71,7 +71,7 @@ footer{
     margin-top: 20px;
     background: #2c4a31;
     padding: 10px;
-    color: antiquewhite;
+    color: rgb(229, 232, 232);
     font-weight: 500;
     font-size: 15px;
 }
@@ -87,10 +87,12 @@ ul{
 }
 li{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 45px;
+    margin-bottom: 5px;
 }
 .food_menu{
-    width: 170px;
+    width: 200px;
     margin: 10px;
     /* border: solid #555843 2px;
     border-radius: 20px;
@@ -99,7 +101,7 @@ li{
     color: #313531; */
 }
 .food_price{
-    width: 150px;
+    width: 130px;
     margin: 10px;
     /* border: solid #555843 2px;
     border-radius: 20px;
